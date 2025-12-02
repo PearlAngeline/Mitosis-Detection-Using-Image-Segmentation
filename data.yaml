@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['mitosis_0-0', 'mitosis_0-2', 'mitosis_0-65', 'mitosis_0-8', 'mitosis_1-0']
+
+roboflow:
+  workspace: mitosisdetection
+  project: ms-mitosis-detection2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mitosisdetection/ms-mitosis-detection2/dataset/1
